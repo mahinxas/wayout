@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+  <defs>
+    <linearGradient id="g" x1="5" y1="43" x2="43" y2="5" gradientUnits="userSpaceOnUse">
+      <stop offset="0%"   stop-color="#0077B6"/>
+      <stop offset="50%"  stop-color="#0096C7"/>
+      <stop offset="100%" stop-color="#48CAE4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Globe ring -->
+  <circle cx="24" cy="24" r="16" stroke="url(#g)" stroke-width="2.5"/>
+
+  <!-- Latitude arcs -->
+  <path d="M8,19 Q24,14 40,19"  stroke="url(#g)" stroke-width="1.4" stroke-linecap="round" opacity="0.4"/>
+  <path d="M9,30 Q24,35 39,30"  stroke="url(#g)" stroke-width="1.4" stroke-linecap="round" opacity="0.4"/>
+
+  <!-- Meridian arc -->
+  <path d="M24,8 Q31,16 31,24 Q31,32 24,40" stroke="url(#g)" stroke-width="1.4" stroke-linecap="round" opacity="0.35"/>
+
+  <!-- Escape arrow -->
+  <line x1="20" y1="31" x2="36" y2="10" stroke="url(#g)" stroke-width="3" stroke-linecap="round"/>
+  <path d="M34,17 L36,10 L30,13" stroke="url(#g)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
