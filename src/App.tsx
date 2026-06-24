@@ -7,7 +7,6 @@ import TrustBar from './components/TrustBar';
 import Roadmap from './components/Roadmap';
 import Destinations from './components/Destinations';
 import WhyWayout from './components/WhyWayout';
-import Testimonials from './components/Testimonials';
 import LeadFormSection from './components/LeadFormSection';
 import CtaFooter from './components/CtaFooter';
 import FloatingWhatsApp from './components/FloatingWhatsApp';
@@ -30,8 +29,7 @@ function HomePage() {
         <Roadmap />
         <Destinations />
         <WhyWayout />
-        <Testimonials />
-        <LeadFormSection />
+<LeadFormSection />
       </main>
       <CtaFooter />
       <FloatingWhatsApp />
